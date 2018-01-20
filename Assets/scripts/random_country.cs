@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class NewBehaviourScript : MonoBehaviour
+public class random_country : MonoBehaviour
 {
     public int interval = 3;
     private DateTime lastTime;
@@ -17,7 +17,7 @@ public class NewBehaviourScript : MonoBehaviour
         lastTime = DateTime.Now;
         random = new System.Random();
 	}
-	
+
 	// Update is called once per frame
 	void Update()
     {
